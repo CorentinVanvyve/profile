@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@300&display=swap');
+
+body{
+  background-color: #F2D7D9;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+}
+
+img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #748DA6;
+  font-size: 3em;
+}
+
+p {
+  color: #748DA6;
+}
+
+a {
+  text-decoration: none;
+  color: #354259;
+}
+
+h2{
+  font-size: 20px;
+}
+
+.container{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.card {
+  text-align: center;
+  background-color: #D3CEDF;
+  padding: 10px 30px 30px 30px;
+  margin:  20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.175);
+}
+
+.container > .card > a{
+  background-color: #9CB4CC;
+  padding: 8px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+}
+
+.container > .card > a:hover{
+  background-color: rgba(255, 255, 255, 0.368);
+  padding: 8px;
+  border-radius: 4px;
+  color: #9CB4CC;
+  font-weight: bold;
+  transition-duration: 0.8s;
+}
+
+.social_list{
+  list-style-type: none;
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.social_list li{
+  display: inline-block;
+  font-size: xx-large;
+  margin: auto 10px;
+}
+
+.social_list li a:hover{
+  color: white;
+  transition-duration: 0.3s;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+
+  }
+}
